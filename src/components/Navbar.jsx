@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
+import logo from "../images/logoeztax.png";
 
 const Navbar = () => {
   return (
@@ -42,10 +43,7 @@ const Navbar = () => {
       <div className="top-nav-II">
         <div className="logo-img">
           <Link to="/">
-            <img
-              src="https://www.taxtim.com/za/images/taxtim-logo.svg"
-              alt=""
-            />
+            <img src={logo} alt="" />
           </Link>
         </div>
         <div className="top-nav-III">
@@ -140,7 +138,8 @@ const DIV = styled.div`
   }
 
   .logo-img {
-    width: 221px;
+    width: 60px;
+    height: 30px;
     vertical-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
