@@ -34,18 +34,7 @@ export const LandingPage = () => {
               THE FASTEST, EASIEST WAY
               <br /> TO DO YOUR TAX RETURNS.
             </h3>
-
             <YoutubeEmbed embedId="nAFLsldyJfs" />
-
-            {/* <video controls width="500px" height="300px">
-              <source src="https://youtu.be/nAFLsldyJfs" type="video/webm" />
-              <source src="https://youtu.be/nAFLsldyJfs" type="video/mp4" />
-              Download the
-              <a href="https://youtu.be/nAFLsldyJfs">WEBM</a>
-              or
-              <a href="https://youtu.be/nAFLsldyJfs">MP4</a>
-              video.
-            </video> */}
           </div>
         </div>
         <div className="form-container">
@@ -62,7 +51,7 @@ export const LandingPage = () => {
               name="input1"
               value={formData.input1}
               onChange={handleInputChange}
-              placeholder="Name & Surname"
+              placeholder="Name"
             />
             <input
               type="email"
@@ -194,7 +183,7 @@ export const LandingPage = () => {
             <div>
               <h4 className="icon-heading2">Tax Experts on Hand</h4>
               <p className="ptag">
-                TaxTim is maintained by registered tax practitioners,
+                eztax is maintained by registered tax practitioners,
                 <br />
                 who can help you with those slightly more complicated
                 <br />
@@ -214,7 +203,7 @@ export const LandingPage = () => {
             <div>
               <h4 className="icon-heading2">Quick and easy</h4>
               <p className="ptag">
-                Most people finish their tax returns on TaxTim in 20
+                Most people finish their tax returns on eztax in 20
                 <br />
                 minutes or less. But fast doesn't mean rushing - I'm
                 <br />
@@ -227,7 +216,7 @@ export const LandingPage = () => {
       <hr />
       <div class="container2">
         <div class="twelve">
-          <h1>Who Partners With TaxTim?</h1>
+          <h1>Who Partners With eztax?</h1>
           <h2>We have several fantastic partner offers.</h2>
           <br />
         </div>
@@ -299,7 +288,7 @@ const DIV = styled.div`
 
   .text-overlay {
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 25%;
     right: 45%;
     transform: translate(-50%, -50%);
@@ -321,6 +310,7 @@ const DIV = styled.div`
   }
 
   input {
+    background: #aef1eb;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -328,6 +318,7 @@ const DIV = styled.div`
   }
 
   select {
+    background: #aef1eb;
     padding: 10px;
     border: none;
     border-radius: 5px;
@@ -342,7 +333,7 @@ const DIV = styled.div`
     color: #fff;
     cursor: pointer;
     width: 310px;
-    margin-left: 20px;
+    margin-left: 15px;
     height: 45px;
   }
 
