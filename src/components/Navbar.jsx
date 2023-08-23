@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 
 const Navbar = () => {
   return (
-    <>
+    <DIV>
       <div className="top-nav">
         <div className="reg-nav">
           <div>
@@ -69,7 +69,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </DIV>
   );
 };
 
