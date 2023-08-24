@@ -10,21 +10,21 @@ const Footer = () => {
           <div className="container">
             <div className="rowhidebelowtablet">
               <div className="six columns">
-                <h3>About TaxTim</h3>
+                <h3>About Ez Tax</h3>
 
                 <div>
                   <div className="col">
                     <div className="column">
-                      <a href="about-taxtim">The TaxTim Story</a>
+                      <a href="about-eztax">The Ez Tax Story</a>
                       <a href="data-security">Security and Trust</a>
                       <a href="affiliate-signup">Become an Affiliate</a>
                     </div>
 
                     <div className="column">
-                      <a href="how-tim-works">How TaxTim Works</a>
-                      <a href="services">What TaxTim Costs</a>
+                      <a href="how-tim-works">How Ez Tax Works</a>
+                      <a href="services">What Ez Tax Costs</a>
                       <a href="tos#refunds">Refund Policy</a>
-                      <a href="jobs">Jobs at TaxTim</a>
+                      <a href="jobs">Jobs at Ez Tax</a>
                     </div>
 
                     <div className="column">
@@ -55,8 +55,8 @@ const Footer = () => {
                     <a href="answers/">Tax Q &amp; A</a>
                   </div>
                   <div className="column">
-                    <a href="get-started?register">Register for TaxTim</a>
-                    <a href="blog/">TaxTim Blog</a>
+                    <a href="get-started?register">Register for Ez Tax</a>
+                    <a href="blog/">Ez Tax Blog</a>
                     <a href="free-tax-season-reminders">Tax Season Alerts</a>
                     <a href="contact-us">Contact Us</a>
                   </div>
@@ -100,7 +100,7 @@ const Footer = () => {
               <a href="privacy">Privacy Policy</a> |{" "}
               <a href="sitemap">Sitemap</a>
               <br />
-              Copyright ©️ 2023 TaxTim | Human Robot Pty Ltd. All Rights
+              Copyright ©️ 2023 Ez Tax | Human Robot Pty Ltd. All Rights
               Reserved.
               <br />
               Supported by SARS Registered Tax Practitioner PR-0009352 | 32
