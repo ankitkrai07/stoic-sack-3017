@@ -5,7 +5,7 @@ import { BsLinkedin, BsTwitter } from "react-icons/bs";
 import { styled } from "styled-components";
 const Footer = () => {
   return (
-    <>
+    <DIV>
       <div className="footer-container">
         <footer className="main">
           <div className="container">
@@ -111,7 +111,7 @@ const Footer = () => {
           </div>
         </footer>
       </div>
-    </>
+    </DIV>
   );
 };
 
