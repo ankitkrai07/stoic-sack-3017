@@ -16,27 +16,23 @@ const Footer = () => {
                 <div>
                   <div className="col">
                     <div className="column">
-                      <a href="about-eztax">The Ez Tax Story</a>
-                      <a href="data-security">Security and Trust</a>
-                      <a href="affiliate-signup">Become an Affiliate</a>
+                      <a href="">The Ez Tax Story</a>
+                      <a href="">Security and Trust</a>
+                      <a href="">Become an Affiliate</a>
                     </div>
 
                     <div className="column">
-                      <a href="how-tim-works">How Ez Tax Works</a>
-                      <a href="services">What Ez Tax Costs</a>
-                      <a href="tos#refunds">Refund Policy</a>
-                      <a href="jobs">Jobs at Ez Tax</a>
+                      <a href="">How Ez Tax Works</a>
+                      <a href="">What Ez Tax Costs</a>
+                      <a href="">Refund Policy</a>
+                      <a href="">Jobs at Ez Tax</a>
                     </div>
 
                     <div className="column">
-                      <a href="services/clerk-assist">Clerk Assist</a>
-                      <a href="services/mobile-vehicle-logbook">
-                        Vehicle Logbook
-                      </a>
-                      <a href="services/expense-tracker-app">
-                        Expense Tracker App
-                      </a>
-                      <a href="small-business">Small Business Tax</a>
+                      <a href="">Clerk Assist</a>
+                      <a href="">Vehicle Logbook</a>
+                      <a href="">Expense Tracker App</a>
+                      <a href="">Small Business Tax</a>
                     </div>
                   </div>
                 </div>
@@ -47,19 +43,17 @@ const Footer = () => {
 
                 <div className="col">
                   <div className="column">
-                    <a href="help/ask-a-tax-question?source=footer">
-                      Ask a Tax Question
-                    </a>
+                    <a href="">Ask a Tax Question</a>
 
-                    <a href="calculators">Tax Calculators</a>
-                    <a href="help">Step-by-step Guides</a>
-                    <a href="answers/">Tax Q &amp; A</a>
+                    <a href="">Tax Calculators</a>
+                    <a href="">Step-by-step Guides</a>
+                    <a href="">Tax Q &amp; A</a>
                   </div>
                   <div className="column">
-                    <a href="get-started?register">Register for Ez Tax</a>
-                    <a href="blog/">Ez Tax Blog</a>
-                    <a href="free-tax-season-reminders">Tax Season Alerts</a>
-                    <a href="contact-us">Contact Us</a>
+                    <a href="">Register for Ez Tax</a>
+                    <a href="">Ez Tax Blog</a>
+                    <a href="">Tax Season Alerts</a>
+                    <a href="">Contact Us</a>
                   </div>
                 </div>
               </div>
@@ -97,9 +91,8 @@ const Footer = () => {
             </div>
 
             <div className=" terms-container">
-              <a href="tos">Terms of Service</a> |{" "}
-              <a href="privacy">Privacy Policy</a> |{" "}
-              <a href="sitemap">Sitemap</a>
+              <a href="">Terms of Service</a> | <a href="">Privacy Policy</a> |{" "}
+              <a href="">Sitemap</a>
               <br />
               Copyright ©️ 2023 Ez Tax | Human Robot Pty Ltd. All Rights
               Reserved.
