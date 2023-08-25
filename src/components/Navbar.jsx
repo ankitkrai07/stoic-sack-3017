@@ -29,6 +29,11 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
+            <Link className="link" to="/students">
+              Students
+            </Link>
+          </div>
+          <div>
             <Link className="link" to="/calculators">
               Calculators
             </Link>
