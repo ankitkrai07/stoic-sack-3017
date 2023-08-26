@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import Avatar from "./Avatar";
-import { Chatbot } from "./Chatbot";
+import { Chatbot } from "./Chatboat";
 
 export const FinalChat = () => {
   const ref = useRef(null);
