@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import ChatBot from "react-simple-chatbot";
-import { styles } from "./styles";
+import { styles } from "./style";
 import { ThemeProvider } from "styled-components";
 const theme = {
   background: "#f5f8fb",

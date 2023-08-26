@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-
-import { styles } from "./styles";
+import { styles } from "./style";
 
 const Avatar = (props) => {
   const [hover, setHover] = useState(false);
