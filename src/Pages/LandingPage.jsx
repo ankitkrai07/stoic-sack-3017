@@ -5,6 +5,7 @@ import { styled } from "styled-components";
 
 import { useState } from "react";
 import YoutubeEmbed from "../components/YoutubeEmbed";
+import { useNavigate } from "react-router-dom";
 export const LandingPage = () => {
   const [formData, setFormData] = useState({
     input1: "",
@@ -12,6 +13,7 @@ export const LandingPage = () => {
     input3: "",
     input4: "",
   });
+  const navigate = useNavigate();
 
   const handleInputChange = (e) => {
     setFormData({
@@ -23,6 +25,7 @@ export const LandingPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
+    navigate("/login");
   };
   return (
     <DIV>
@@ -31,7 +34,7 @@ export const LandingPage = () => {
           <img width="100%" src={HomePageImg} alt="homepageimg" />
           <div className="text-overlay">
             <h3 className="h3tag">
-              THE FASTEST, EASIEST WAY
+              THE FASTEST,EASIEST WAY
               <br /> TO DO YOUR TAX RETURNS.
             </h3>
             <YoutubeEmbed embedId="nAFLsldyJfs" />
@@ -52,6 +55,7 @@ export const LandingPage = () => {
               value={formData.input1}
               onChange={handleInputChange}
               placeholder="Name"
+              required
             />
             <input
               type="email"
@@ -59,6 +63,7 @@ export const LandingPage = () => {
               value={formData.input2}
               onChange={handleInputChange}
               placeholder="Email Address"
+              required
             />
             <input
               type="number"
@@ -66,12 +71,14 @@ export const LandingPage = () => {
               value={formData.input3}
               onChange={handleInputChange}
               placeholder="Contact No"
+              required
             />
             <select
               name="input4"
               value={formData.input4}
               onChange={handleInputChange}
               placeholder="Input 4"
+              required
             >
               <option value="">Type of Tax</option>
               <option value="income tax">Income Tax</option>

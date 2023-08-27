@@ -3,6 +3,7 @@ import React from "react";
 import { ImInstagram, ImFacebook2 } from "react-icons/im";
 import { BsLinkedin, BsTwitter } from "react-icons/bs";
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <DIV>
