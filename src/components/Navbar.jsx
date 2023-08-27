@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { styled } from "styled-components";
 import logo from "../images/logoeztax.png";
+import { authcontext } from "../Contex/Authcontext";
 
 const Navbar = () => {
+  const{isauth,matchuser}=useContext(authcontext)
   return (
     <DIV>
       <div className="top-nav">
@@ -35,7 +37,9 @@ const Navbar = () => {
           </div>
           <div>
             <Link className="link" to="/login">
-              Login
+             {
+              isauth ? matchuser.name:"Login"
+             }
             </Link>
           </div>
         </div>

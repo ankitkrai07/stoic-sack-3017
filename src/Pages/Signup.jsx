@@ -1,8 +1,39 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from '@emotion/styled';
+import { useNavigate } from 'react-router-dom';
 
 
 const Signup = () => {
+  const [rname,setrname]=useState("")
+  const [remail,setremail]=useState("")
+  const [rpassword,setrpassword]=useState("")
+  const navigate=useNavigate()
+
+  function handelpost (e){
+    e.preventDefault()
+    let user={
+      name:rname,
+      email:remail,
+      password:rpassword
+    }
+    
+  
+      fetch(`https://64e9af42bf99bdcc8e66e32e.mockapi.io/users`,{
+        method:"POST",
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify(user)
+      
+      })
+      .then(()=>{
+        alert("Success")
+        setrname("")
+        setremail("")
+        setrpassword("")
+        navigate("/login",{replace:true})
+      })
+     
+  
+  }
   return (
     <DIV>
         <div className="background-image" style={{ backgroundImage: `url("https://static.vecteezy.com/system/resources/previews/002/826/413/large_2x/close-up-business-woman-using-calculator-and-laptop-for-do-math-finance-on-wooden-desk-in-office-and-business-working-background-tax-accounting-statistics-and-analytic-research-concept-free-photo.jpg")`,
@@ -14,18 +45,18 @@ const Signup = () => {
     <div className="signup-container">
       <div className="signup-card">
         <h2>Create an Account</h2>
-        <form className="signup-form">
+        <form className="signup-form" onSubmit={handelpost}>
           <div className="form-group">
             <label >Full Name</label>
-            <input type="text" id="fullName" name="fullName" required />
+            <input type="text" id="fullName" name="fullName" required  value={rname} onChange={(e)=>setrname(e.target.value)} />
           </div>
           <div className="form-group">
             <label>Email</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="email" required   value={remail} onChange={(e)=>setremail(e.target.value)}/>
           </div>
           <div className="form-group">
             <label >Password</label>
-            <input type="password" id="password" name="password" required />
+            <input type="password" id="password" name="password" required  value={rpassword} onChange={(e)=>setrpassword(e.target.value)}/>
           </div>
           <div className="form-group">
             <label >Confirm Password</label>
