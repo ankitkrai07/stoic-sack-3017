@@ -17,23 +17,23 @@ const Footer = () => {
                 <div>
                   <div className="col">
                     <div className="column">
-                      <a href="">The Ez Tax Story</a>
-                      <a href="">Security and Trust</a>
-                      <a href="">Become an Affiliate</a>
+                      <a href="#">The Ez Tax Story</a>
+                      <a href="#">Security and Trust</a>
+                      <a href="#">Become an Affiliate</a>
                     </div>
 
                     <div className="column">
-                      <a href="">How Ez Tax Works</a>
-                      <a href="">What Ez Tax Costs</a>
-                      <a href="">Refund Policy</a>
-                      <a href="">Jobs at Ez Tax</a>
+                      <a href="#">How Ez Tax Works</a>
+                      <a href="#">What Ez Tax Costs</a>
+                      <a href="#">Refund Policy</a>
+                      <a href="#">Jobs at Ez Tax</a>
                     </div>
 
                     <div className="column">
-                      <a href="">Clerk Assist</a>
-                      <a href="">Vehicle Logbook</a>
-                      <a href="">Expense Tracker App</a>
-                      <a href="">Small Business Tax</a>
+                      <a href="#">Clerk Assist</a>
+                      <a href="#">Vehicle Logbook</a>
+                      <a href="#">Expense Tracker App</a>
+                      <a href="#">Small Business Tax</a>
                     </div>
                   </div>
                 </div>
@@ -44,56 +44,56 @@ const Footer = () => {
 
                 <div className="col">
                   <div className="column">
-                    <a href="">Ask a Tax Question</a>
+                    <a href="#">Ask a Tax Question</a>
 
-                    <a href="">Tax Calculators</a>
-                    <a href="">Step-by-step Guides</a>
-                    <a href="">Tax Q &amp; A</a>
+                    <a href="#">Tax Calculators</a>
+                    <a href="#">Step-by-step Guides</a>
+                    <a href="#">Tax Q &amp; A</a>
                   </div>
                   <div className="column">
-                    <a href="">Register for Ez Tax</a>
-                    <a href="">Ez Tax Blog</a>
-                    <a href="">Tax Season Alerts</a>
-                    <a href="">Contact Us</a>
+                    <a href="#">Register for Ez Tax</a>
+                    <a href="#">Ez Tax Blog</a>
+                    <a href="#">Tax Season Alerts</a>
+                    <a href="#">Contact Us</a>
                   </div>
                 </div>
               </div>
             </div>
 
             <div className="social-container">
-              <a href="" target="_blank">
+              <a href="#" target="_blank">
                 <a>
                   <BsTwitter />
                 </a>
-                <i class="social fab fa-twitter"></i>
+                <i className="social fab fa-twitter"></i>
               </a>{" "}
               &nbsp;
-              <a href="" target="_blank">
+              <a href="#" target="_blank">
                 <a>
                   <ImFacebook2 />
                 </a>
-                <i class="social fab fa-facebook"></i>
+                <i className="social fab fa-facebook"></i>
               </a>{" "}
               &nbsp;
-              <a href="" target="_blank">
+              <a href="#" target="_blank">
                 <a>
                   <ImInstagram />
                 </a>
 
-                <i class="social fab fa-instagram"></i>
+                <i className="social fab fa-instagram"></i>
               </a>{" "}
               &nbsp;
-              <a href="" target="_blank">
+              <a href="#" target="_blank">
                 <a>
                   <BsLinkedin />
                 </a>
-                <i class="social fab fa-linkedin"></i>
+                <i className="social fab fa-linkedin"></i>
               </a>
             </div>
 
             <div className=" terms-container">
-              <a href="">Terms of Service</a> | <a href="">Privacy Policy</a> |{" "}
-              <a href="">Sitemap</a>
+              <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> |{" "}
+              <a href="#">Sitemap</a>
               <br />
               Copyright ©️ 2023 Ez Tax | Human Robot Pty Ltd. All Rights
               Reserved.

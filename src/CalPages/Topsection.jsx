@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "styled-components";
 
-export default function () {
+export default function  Topsection() {
   return (<DIV >
     <div style={{display:"flex",justifyContent:"flex-end",margin:"auto",width:"80%"}}>
     <div style={{width:"80%"}}>
@@ -15,8 +15,8 @@ export default function () {
         <button >NEW TO TAX</button>
         </div>
       </div>
-      <div style={{margin:"auto"}}>
-        <img src="https://media.taxtim.com/images/media-za/reclining-man.png" alt="" style={{width:"50%",alignItems:"center",marginLeft:"30%"}}/>
+      <div className="image" >
+        <img src="https://media.taxtim.com/images/media-za/reclining-man.png" alt="loadin" />
       </div>
     </div>
     </DIV>
@@ -33,6 +33,19 @@ button{
     color: white;
     border-radius: 10px;
     border: none;
+    box-shadow: rgba(116, 132, 149, 0.2) 0px 8px 24px;
 
+}
+button:hover{
+    background-color: #171616;
+}
+.image{
+    margin: auto;
+}
+.image img{
+   
+    width: 50%;
+    align-items: center;
+    margin-left: 30%;
 }
 `
