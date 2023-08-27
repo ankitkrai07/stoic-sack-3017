@@ -1,10 +1,3 @@
-// import React from 'react'
-
-// export default function Gridcaltwocard() {
-//   return (
-//     <div>Gridcaltwocard</div>
-//   )
-// }
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
