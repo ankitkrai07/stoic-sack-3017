@@ -1,12 +1,3 @@
-// import React from 'react'
-
-// export default function Companytax() {
-//   return (
-//     <div>Companytax</div>
-//   )
-// }
-
-
 import React, { useEffect, useState } from 'react';
 import { styled } from 'styled-components';
 const Container = styled.div`
@@ -28,8 +19,6 @@ const Result = styled.div`
   margin-top: 20px;
   /* opacity: 0;
   transition: opacity 0.5s ease-in-out; */
-
- 
 `;
 
 const TaxText = styled.p`
