@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="social-container">
+            {/* <div className="social-container">
               <a href="#" target="_blank">
                 <a>
                   <BsTwitter />
@@ -81,19 +81,19 @@ const Footer = () => {
                 </a>
 
                 <i className="social fab fa-instagram"></i>
-              </a>{" "}
-              &nbsp;
-              <a href="#" target="_blank">
-                <a>
-                  <BsLinkedin />
-                </a>
+              </a>
+              {/* {" "} */}
+            {/* &nbsp; */}
+            {/* <a href="#" target="_blank">
+                <BsLinkedin />
+
                 <i className="social fab fa-linkedin"></i>
               </a>
-            </div>
+            </div>  */}
 
             <div className=" terms-container">
-              <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> |{" "}
-              <a href="#">Sitemap</a>
+              <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a>{" "}
+              | <a href="#">Sitemap</a>
               <br />
               Copyright ©️ 2023 Ez Tax | Human Robot Pty Ltd. All Rights
               Reserved.

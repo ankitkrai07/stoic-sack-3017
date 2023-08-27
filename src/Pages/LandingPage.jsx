@@ -110,7 +110,7 @@ export const LandingPage = () => {
               it directly with SARS for your maximum possible refund!
             </h5>
             <div>
-              <h5 class="icon-heading">Register for a ez tax Account</h5>
+              <h5 className="icon-heading">Register for a ez tax Account</h5>
               <p className="ptag">
                 Tell me a bit about your taxes and I'II show which eztax package
                 <br />
@@ -118,7 +118,7 @@ export const LandingPage = () => {
               </p>
             </div>
             <div>
-              <h5 class="icon-heading">Have a chat with me online</h5>
+              <h5 className="icon-heading">Have a chat with me online</h5>
               <p className="ptag">
                 We'll complete your tax return correctly, checking all
                 deductions
@@ -127,7 +127,7 @@ export const LandingPage = () => {
               </p>
             </div>
             <div>
-              <h5 class="icon-heading">
+              <h5 className="icon-heading">
                 Pay By EFT / Card To Submit Your Return
               </h5>
               <p className="ptag">
@@ -221,15 +221,15 @@ export const LandingPage = () => {
         </div>
       </div>
       <hr />
-      <div class="container2">
-        <div class="twelve">
+      <div className="container2">
+        <div className="twelve">
           <h1>Who Partners With eztax?</h1>
           <h2>We have several fantastic partner offers.</h2>
           <br />
         </div>
 
-        <div class="row">
-          <div class="three columns text-center">
+        <div className="row">
+          <div className="three columns text-center">
             <a href="">
               <img
                 alt="FNB eBucks"
@@ -242,7 +242,7 @@ export const LandingPage = () => {
             <a href="">Read more</a>
           </div>
 
-          <div class="three columns text-center">
+          <div className="three columns text-center">
             <a href="">
               <img
                 alt="Old Mutual Rewards"
@@ -255,7 +255,7 @@ export const LandingPage = () => {
             <a href="">Read more</a>
           </div>
 
-          <div class="three columns text-center">
+          <div className="three columns text-center">
             <a href="">
               <img
                 alt="Momentum / Multiply"
@@ -268,7 +268,7 @@ export const LandingPage = () => {
             <a href="">Read more</a>
           </div>
 
-          <div class="three columns text-center">
+          <div className="three columns text-center">
             <a href="">
               <img
                 alt="Sanlam Reality"

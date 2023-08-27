@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Navbar />
       <MainRoutes />
-      <FinalChat />
+      {/* <FinalChat /> */}
       <Footer />
     </div>
   );

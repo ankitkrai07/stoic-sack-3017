@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import ChatBot from "react-simple-chatbot";
+// import ChatBot from "react-simple-chatbot";
 import { styles } from "./style";
 import { ThemeProvider } from "styled-components";
 const theme = {
@@ -28,15 +28,15 @@ export const Chatbot = (props) => {
         className="transition-5"
       >
         <ThemeProvider theme={theme}>
-          <ChatBot
-            height="470px"
-            contentStyle={{ width: "340px", marginLeft: "1px" }}
+          <div>
+            {/* <ChatBot */}
+            height="470px" contentStyle={{ width: "340px", marginLeft: "1px" }}
             bubbleStyle={{ fontSize: "17px" }}
             inputStyle={{ width: "345px", height: "40px", marginLeft: "1px" }}
             submitButtonStyle={{ marginRight: "5px", marginTop: "7px" }}
             headerTitle="Tim"
-            botAvatar="https://www.taxtim.com/za/images/og-thumb3.jpg"
-            steps={[
+            botAvatar="https://www.taxtim.com/za/images/og-thumb3.jpg" steps=
+            {[
               {
                 id: "Greet",
                 message:
@@ -285,7 +285,7 @@ export const Chatbot = (props) => {
                 id: "tax calculator-yes",
                 component: (
                   <button
-                    onClick={() => navigate("/calculators")}
+                    onClick={() => navigate("/calculator")}
                     style={{ color: "red" }}
                   >
                     Click Here To Calculate Your Tax
@@ -398,7 +398,8 @@ export const Chatbot = (props) => {
                 end: true,
               },
             ]}
-          />
+          </div>
+          {/* /> */}
         </ThemeProvider>
       </div>
     </div>

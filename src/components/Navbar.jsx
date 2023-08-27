@@ -1,11 +1,17 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { styled } from "styled-components";
 import logo from "../images/logoeztax.png";
 import { authcontext } from "../Contex/Authcontext";
 
 const Navbar = () => {
-  const{isauth,matchuser}=useContext(authcontext)
+  const navigate = useNavigate();
+
+  const getStarted = () => {
+    navigate("/signup");
+  };
+
+  const { isauth, matchuser } = useContext(authcontext);
   return (
     <DIV>
       <div className="top-nav">
@@ -42,9 +48,7 @@ const Navbar = () => {
           </div>
           <div>
             <Link className="link" to="/login">
-             {
-              isauth ? matchuser.name:"Login"
-             }
+              {isauth ? matchuser.name : "Login"}
             </Link>
           </div>
         </div>
@@ -72,7 +76,9 @@ const Navbar = () => {
             </a>
           </div>
           <div>
-            <button className="getstart">GET STARTED</button>
+            <button onClick={getStarted} className="getstart">
+              GET STARTED
+            </button>
           </div>
         </div>
       </div>
@@ -163,6 +169,7 @@ const DIV = styled.div`
     border: 2px solid #2aa12e;
     background-color: #2aa12e;
     border-radius: 5px;
+    cursor: pointer;
   }
 
   /* Media query for medium-sized screens */
