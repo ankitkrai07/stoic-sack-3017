@@ -67,6 +67,10 @@ Join us in revolutionizing tax management.
         └── index.js
 ```
 
+### Deployment 
+This Project is deployed and accessible at https://eztax.vercel.app/
+
+
 ### Landing Page
 
 
