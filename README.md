@@ -37,9 +37,6 @@ Join us in revolutionizing tax management.
         │   ├── Navbar.jsx
         │   ├── PrivateRoute.jsx
         │   ├── YoutubeEmbed.jsx
-        │
-        │
-        │
         ├── chatbot
         │   ├── Avatar.jsx
         │   ├── Chatboat.jsx
@@ -72,16 +69,21 @@ This Project is deployed and accessible at https://eztax.vercel.app/
 
 
 ### Landing Page
+![LandingPage](https://github.com/ankitkrai07/stoic-sack-3017/assets/115462441/06c43045-4435-4f74-b95c-92c619e6cc17)
 
 
 ### Login Page
+![Login](https://github.com/ankitkrai07/stoic-sack-3017/assets/115462441/2239410a-cd8f-4057-aaf0-984e8cdc8836)
 
 
 ### Signup Page
+![Signup](https://github.com/ankitkrai07/stoic-sack-3017/assets/115462441/8a1fd2c6-c7cf-4e16-b630-5cfd8d650646)
 
 
 ### Calculators Page
+![CalculatorPage](https://github.com/ankitkrai07/stoic-sack-3017/assets/115462441/7d9954de-a344-478d-872b-e18be3d3285b)
 
 
 ### Tax Calculation Page
+![taxCalPage](https://github.com/ankitkrai07/stoic-sack-3017/assets/115462441/c7b40d52-ce63-4149-9d06-bf9e2689fc4c)
 
